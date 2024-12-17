@@ -49,3 +49,10 @@ switch (today) {
         display_day = "Invalid day";
 }
 document.write(display_day);
+function myfunction(x, y)
+{
+    if (y== undefined) {
+        y = 2;
+    }
+    document.write(x*y);
+}
